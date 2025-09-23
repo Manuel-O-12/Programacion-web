@@ -38,7 +38,9 @@
 
     <br>
 
-    <form>
+    <!--Inicia formulario-->
+
+    <form action="index.html" target="_self" method="post" autocomplete="off">
 
         <label for="email">
             Correo Electronico
@@ -48,11 +50,33 @@
 
         <br>
 
+        <label for="password">
+            Contraseña
+        </label>
+        <input type="password" name="password" id="password">
+
+        <br>
+
+        <label for="seleccionar">
+            Seleccione una opcion:
+        </label>
+        <select name="opcion" id="">
+            <option value="">
+                opcion 1
+            </option>
+            <option value="">
+                opcion 2
+            </option>
+        </select>
+        
+        <br>
+        
+
         <label for="name">
             ingrese su nombre:
         </label>
         <input type="text" name="name" id="name"
-        autofocus value="" size="50" maxlength="20" minlength="4"
+        autofocus value="" size="50" maxlength="20" minlength="5"
         required pattern="[A-Za-z]{5}" title="Solo 5 letras" >
 
         <br>
@@ -113,6 +137,21 @@
 
         <br>
 
+        <label for="mensaje">
+            Ingrese su mensaje
+        </label>
+        <textarea placeholder="Escribe tus recomendaciones" id="mensaje"></textarea>
+
+        <br>
+
+        <input type="color" name="color" id="color">
+
+        <input type="date" name="" id="">
+
+        <input type="datetime-local" name="" id="">
+
+        <br>
+
         <input type="submit" value="Guardar">
 
         <br>
@@ -122,7 +161,7 @@
 
 
     </form>
-
+    <!--Termina formulario-->
 
 
 </body>
