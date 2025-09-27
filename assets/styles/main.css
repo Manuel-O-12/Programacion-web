@@ -1,42 +1,46 @@
-.titulo{
+.titulo {
     background-color: rgb(14, 231, 217);
 }
 
-a{
+a {
     display: block;
 }
 
-.p1{
+.p1 {
     background-color: rgb(30, 40, 234);
 }
 
+.p2:hover {
+    color: #DAB3FC;
+    background-color: #000000;
+}
 
-.Comidas-Favoritas{
+
+.Comidas-Favoritas {
     color: rgb(255, 119, 0);
 }
 
-.padding{
+.padding {
     background-color: bisque;
     padding: 20px 50px 20px 50px;
 }
 
-.bordes1{
+.bordes1 {
     border-style: double;
     border-color: black;
 }
 
-.bordes2{
+.bordes2 {
     border-style: dashed;
     border-color: black;
 }
 
-.ba_img{
+.ba_img {
     background-image: url("../img/Manos.jpg");
 }
 
-.ba_img_min{
+.ba_img_min {
     background-image: url("../img/abeja.png");
     background-repeat: no-repeat;
     background-position: center;
 }
-
