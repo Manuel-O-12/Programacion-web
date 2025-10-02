@@ -80,3 +80,45 @@ a {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
+.flex_container{
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex_container div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+@media print{
+     .my_photo{
+        display: none;
+     }
+
+     
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    #cover{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    
+    #cover{
+        width: 80%;
+        background-color: red;
+    }
+}
+
+
+#cover{
+    width: 100px;
+}
